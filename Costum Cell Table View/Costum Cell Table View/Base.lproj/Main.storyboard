@@ -24,51 +24,46 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="339.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="pcE-XG-igy">
-                                            <rect key="frame" x="8" y="8" width="340" height="212"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GCz-0v-TeY">
+                                            <rect key="frame" x="8" y="8" width="359" height="156"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="aurat wanita ketika shalat1" translatesAutoresizingMaskIntoConstraints="NO" id="wiQ-cs-Kn6">
-                                                    <rect key="frame" x="0.0" y="0.0" width="340" height="212"/>
-                                                </imageView>
-                                            </subviews>
-                                        </stackView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ilmu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tcw-6r-qar">
-                                            <rect key="frame" x="29" y="228" width="112" height="21"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ilmu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LPW-db-f2r">
+                                            <rect key="frame" x="28" y="172" width="151" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="22 Juni 2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oev-Ra-TUi">
-                                            <rect key="frame" x="29" y="286" width="319" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="memata matai pasangan suami istri" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nda-IY-VFw">
+                                            <rect key="frame" x="28" y="201" width="320" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                            <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="isi berita" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gx8-Jg-QZu">
-                                            <rect key="frame" x="28" y="315" width="81" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2 Juni 2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SYv-Kj-zFu">
+                                            <rect key="frame" x="28" y="230" width="108" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" aurat wanita ketika shalat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ok-g5-zU2">
-                                            <rect key="frame" x="19" y="257" width="319" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Isi Berita" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3NU-gm-6gf">
+                                            <rect key="frame" x="28" y="259" width="82" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                            <color key="textColor" red="0.77163654565811157" green="0.58885598182678223" blue="0.069510698318481445" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="LBerita" destination="Gx8-Jg-QZu" id="IoZ-bc-KUX"/>
-                                    <outlet property="LJudul" destination="5Ok-g5-zU2" id="pFC-8g-4lf"/>
-                                    <outlet property="LKategori" destination="Tcw-6r-qar" id="qZE-0I-apv"/>
-                                    <outlet property="LTanggal" destination="oev-Ra-TUi" id="39s-hR-Ahy"/>
-                                    <outlet property="imgGambar" destination="wiQ-cs-Kn6" id="iLC-BA-BD1"/>
+                                    <outlet property="LBerita" destination="3NU-gm-6gf" id="f9x-Ld-ydY"/>
+                                    <outlet property="LJudul" destination="Nda-IY-VFw" id="kyA-sr-cip"/>
+                                    <outlet property="LKategori" destination="LPW-db-f2r" id="TaC-Z1-Bqk"/>
+                                    <outlet property="LTanggal" destination="SYv-Kj-zFu" id="wbG-L1-KGz"/>
+                                    <outlet property="imgGambar" destination="GCz-0v-TeY" id="aeo-a2-dfk"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -83,7 +78,4 @@
             <point key="canvasLocation" x="800.79999999999995" y="115.59220389805098"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="aurat wanita ketika shalat1" width="340" height="212"/>
-    </resources>
 </document>

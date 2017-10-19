@@ -17,7 +17,7 @@ class CostumCellTableViewController: UITableViewController {
     
     let isiBerita : [String] = ["Allah menegaskan, bahwa Iblis dari golongan jin dan bukan Malaikat. Dan seperti yang kita tahu, Jin adalah jenis makhluk yang diciptakan dari Api, sementara Malaikat diciptakan dari nur (cahaya)" , " Arsy juga makhluk, karena Allah berfirman, (yang artinya), (Dia Rab Arsy yang agung.) Dia menciptakan segala sesuatu, arsy dan yang lainnya. Rab segala sesuatu, arsy dan yang lainnya. (Majmu’ Fatawa, 18/214)", "Dari keterangan hadis ini kita mengetahui, puasa arafah memiliki keutamaan dapat menghapus dosa satu tahun sebelum dan satu tahun sesudahnya Namun pertanyaannya, apakah hal ini berlaku untuk seluruh dosa, sehingga seorang tidak perlu istighfar dan taubat?. Atau bila perlu seorang bisa beralasan dengan puasa Arafah untuk melegalkan maksiat yang dia lakukan?" , "Umumnya, orang melakukan mata-mata, cari-cari info kesalahan (tajassus), karena dia suudzan kepada korban yang di-mata-matai. Sehingga tindakan tajassus, bisa dipastikan diiringi dengan suudzan. Karena itulah, Nabi Shallallahu ‘alaihi wa sallam menggandengkan dua larangan ini dalam hadisnya," , "Salah satu upaya setan untuk mengganggu manusia adalah mempermainkan mereka dalam mimpi. Karena itu, perlu kita yakini, sumber mimpi tidak selamanya datang dari Allah. Bisa juga karena bawaan perasaan atau permainan setan."]
     
-    let gambarBerita : [String] = ["iblis-dan-malaikat-.png" ,"arsy.png", "puasa-arafah.png" , "memata-matai-pasangan-suami-istri.png" , "mimpi-bertemu-pacar.jpg"]
+    let gambarBerita : [String] = ["arsy.png" ,"arsy.png", "arsy.png" , "arsy.png" , "arsy.png"]
         
         
         
@@ -34,6 +34,12 @@ class CostumCellTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        //setting height table view
+        tableView.estimatedRowHeight = 650.0
+        tableView.rowHeight = UITableViewAutomaticDimension
+        
+        
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -50,23 +56,32 @@ class CostumCellTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return judulBerita.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cellBerita", for: indexPath) as! BeritaTableViewCell
 
         // Configure the cell...
+        
+        cell.LJudul.text = judulBerita[indexPath.row]
+        cell.LTanggal.text = Tgldata[indexPath.row]
+        cell.LKategori.text = category[indexPath.row]
+        cell.LBerita.text = isiBerita[indexPath.row]
+//        
+//        let dataImage : UIImage = UIImage(named: gambarBerita[indexPath.row])!
+//
+//       cell.imgGambar.image = dataImage
 
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
